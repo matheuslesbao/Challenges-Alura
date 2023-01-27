@@ -38,8 +38,9 @@ Projeto dessevolvido durante o programa ONE basicamente é construir um decodifi
 - A letra "u" é convertida para "ufat"
 
 Requisitos:
-- Deve funcionar apenas com letras minúsculas
-- Não devem ser utilizados letras com acentos nem caracteres especiais
+Fiz algumas modificações em alguns requisitos para não limitar o usuario.
+- Deve funcionar apenas com letras minúsculas. ( Esta funcionando com maiusculas e minuscula)
+- Não devem ser utilizados letras com acentos nem caracteres especiais. (Esta funcionando com acento e com caracteres especiais).
 - Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
 
 Por exemplo:
