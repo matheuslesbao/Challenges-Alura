@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Codificador</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Styles -->
+  <link href="css/global.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/button.css" />
+</head>
+
+<body>
+  <header>
+    <div class="c-logo">
+      <img src="assets/logo.svg" alt="logo from alura" />
+    </div>
+
+    <div>
+      <button type="button" class="c-button js-theme">Change theme</button>
+    </div>
+  </header>
+  <main class="container">
+    <section>
+      <div class="c-textarea">
+        <textarea class="textarea" placeholder="Digite seu Texto..."></textarea>
+      </div>
+      <div class="c-btnarea">
+        <button id="btnEncrypt" class="c-button">Criptografar</button>
+        <button id="btnDescrypt" class="c-button--secondary">
+          Descriptografar
+        </button>
+      </div>
+    </section>
+    <aside class="c-msg">
+      <div class="c-msg__area">
+        <img src="assets/person.svg" alt="person with a lupe." />
+        <h3>Nenhuma mensagem encontrada</h3>
+        <p>
+          Digite um texto que voce deseja para criptografar ou
+          descriptografar.
+        </p>
+      </div>
+    </aside>
+  </main>
+
+  <script src="js/theme.js" defer></script>
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
