@@ -18,7 +18,7 @@ Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
 $ git clone https://github.com/matheuslesbao/Challenges-Alura.git
-$ cd decodificador_alura
+$ cd codificador_alura
 ```
 
 Para iniciá-lo, siga os passos abaixo:
